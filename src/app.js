@@ -11,10 +11,10 @@ app.use(helmet());
 app.use(
     cors({
         origin: [
-            "http://localhost:3000",
-            "http://127.0.0.1:5500",
-            "https://beyoiwellness.com",
-            "https://www.beyoiwellness.com"
+            "https://ilemjapan.com",
+            "https://in.ilemjapan.com",
+            "https://947187.myshopify.com",
+            "https://ilem-india.myshopify.com",
         ],
         methods: ["GET", "POST"],
         allowedHeaders: ["Content-Type"]

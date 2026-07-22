@@ -12,6 +12,7 @@ app.use(
     cors({
         origin: [
             "https://ilemjapan.com",
+            "https://in.ilemjapan.com",
             "https://947187.myshopify.com",
             "https://ilem-india.myshopify.com",
         ],
